@@ -1,0 +1,140 @@
+/*------------
+  google fonts 
+------------*/
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap');
+
+/*---------
+  common css
+----------- */
+*{
+  margin: 0;
+  padding: 0;
+}
+.container{
+  width:90%;
+  margin: 0 auto;
+} 
+
+/*---------------------
+  header section  start
+  --------------------*/
+.top-banner{
+  display: flex;
+  background-color: #161616;
+  color:white;
+  padding: 10px 20px 0px 50px;
+  justify-content: center;
+  align-items: center;
+  border-radius: 20px;
+
+}
+.header-left{
+  width: 515px;
+  height: 420px;
+  margin-right: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.header-left>h1{
+  font-size: 60px;
+  font-weight: 700;
+
+}
+.header-right{
+  width: 581px;
+}
+.header-right img{
+  height:600px ;
+}
+/* .live{
+  margin-top: 40px;
+
+} */
+.live-btn{
+  text-decoration: none;
+  color: white;
+  background-color: red;
+  padding: 15px 40px;
+  border-radius: 5px;
+}
+
+/*---------------------
+  header section  end
+  ------------------*/
+  /*------------------ 
+    blog section start
+  --------------------- */
+
+
+  .blog-section{
+    display: flex;
+    margin-top: 20px;
+    box-sizing: border-box;
+
+  }
+  nav{
+    height: 270px;
+    width: 270px;
+    background-color: black;
+    display:flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+    border-radius: 10px;
+    margin-right: 10px;
+    
+    
+
+
+  }
+  .blog-section nav button{
+    padding: 15px;
+    border-radius: 10px;
+    width: 80%;
+
+  }
+  .blog-section nav button a{
+    text-decoration: none;
+    color:black;
+    font-size: 18px;
+
+  }
+  
+  article{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    row-gap: 10px;
+    column-gap: 10px;
+  }
+  .blog-cart{
+    background-color: red;
+    width: 312px;
+    height: 350px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 5px 5px whitesmoke;
+  }
+  .blog-dis{
+  width: 80%;
+  margin: 0 auto;
+  } 
+  .blog-btn{
+  margin:15px 0 15px 0;
+    
+  }
+  .blog-btn a{
+    text-decoration: none;
+    color: black;
+    border: 1px solid black;
+    padding: 5px 10px;
+  }
+  .blog-dis p{
+    margin-top: 30px;
+  }
+  .word-space{
+    word-spacing: 10px;
+  }
+  /*------------------ 
+    blog section end
+  --------------------- */
