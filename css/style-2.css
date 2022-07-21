@@ -1,0 +1,13 @@
+.upcoming-cart{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  height: 250px;
+  text-align: center;
+}
+.upcoming-img{
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  padding-top: 15px;
+}
